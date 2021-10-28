@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-primary{
+	background-color: #1E266D
+}
+.bg-secondary{
+	background-color: #FD5285 !important
+}
+.bg-secondary-opacity{
+	background-color: #F9F3FE !important
+}
+.text-primary{
+	color: #1E266D !important
+}
+.text-secondary{
+	color: #FD5285 !important
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1{
+	width: calc((100%/12)*1)
+}
+.col-2{
+	width: calc((100%/12)*2)
+}
+.col-3{
+	width: calc((100%/12)*3)
+}
+.col-4{
+	width: calc((100%/12)*4)
+}
+.col-5{
+	width: calc((100%/12)*5)
+}
+.col-6{
+	width: calc((100%/12)*6)
+}
+.col-7{
+	width: calc((100%/12)*7)
+}
+.col-8{
+	width: calc((100%/12)*8)
+}
+.col-9{
+	width: calc((100%/12)*9)
+}
+.col-10{
+	width: calc((100%/12)*10)
+}
+.col-11{
+	width: calc((100%/12)*11)
+}
+.col-12{
+	width: calc((100%/12)*12)
+}
+.p-1{
+	padding: 4px;
+}
+.pt-1{
+	padding-top: 4px;
+}
+.pb-1{
+	padding-bottom: 4px;
+}
+.pl-1{
+	padding-left: 4px;
+}
+.pr-1{
+	padding-right: 4px;
+}
+.px-1{
+	padding: 0 4px;
+}
+.py-1{
+	padding: 4px 0;
+}
+.m-1{
+	margin: 4px;
+}
+.mt-1{
+	margin-top: 4px;
+}
+.mb-1{
+	margin-bottom: 4px;
+}
+.ml-1{
+	margin-left: 4px;
+}
+.mr-1{
+	margin-right: 4px;
+}
+.mx-1{
+	margin: 0 4px;
+}
+.my-1{
+	margin: 4px 0;
+}
+.ml-5{
+	margin-left: 20px
+}
+.mt-15{
+	margin-top: 60px
+}
+.mt-18{
+	margin-top: 72px
+}
+.mt-20{
+	margin-top: 80px
+}
+.mx-auto{
+	margin: 0 auto
+}
+.p-2{
+	padding: 8px;
+}
+.p-3{
+	padding: 12px;
+}
+.px-3{
+	padding: 0 12px
+}
+.p-4{
+	padding: 16px
+}
+.pt-4{
+	padding-top: 16px
+}
+.px-4{
+	padding: 0 16px
+}
+.py-4{
+	padding: 16px 0
+}
+.py-6{
+	padding: 24px 0
+}
+.pt-8{
+	padding-top: 32px
+}
+.px-8{
+	padding: 0 32px
+}
+.py-8{
+	padding: 32px 0
+}
+.p-10{
+	padding: 40px
+}
+.pt-10{
+	padding-top: 40px
+}
+.pr-10{
+	padding-right: 40px
+}
+.pl-10{
+	padding-left: 40px
+}
+.px-10{
+	padding: 0 40px
+}
+.py-10{
+	padding: 40px 0
+}
+.pt-12{
+	padding-top: 48px
+}
+.pb-12{
+	padding-bottom: 48px
+}
+.ml-12{
+	margin-left: 48px
+}
+.pt-15{
+	padding-top: 60px
+}
+.pb-15{
+	padding-bottom: 60px
+}
+.pr-15{
+	padding-right: 60px
+}
+.pl-15{
+	padding-left: 60px
+}
+.px-15{
+	padding: 0 60px
+}
+.py-15{
+	padding: 60px 0
+}
+.py-20{
+	padding: 80px 0
+}
+.pt-20{
+	padding-top: 80px
+}
+.ml-20{
+	margin-left: 80px
+}
+.mt-20{
+	margin-top: 80px
+}
+.pt-30{
+	padding-top: 120px
+}
+.ml-30{
+	margin-left: 120px
+}
+.mt-30{
+	margin-top: 120px
+}
+.pt-40{
+	padding-top: 160px
+}
+.py-40{
+	padding: 160px 0
+}
+.ml-40{
+	margin-left: 160px
+}
+.mt-40{
+	margin-top: 160px
+}
+.pt-45{
+	padding-top: 180px
+}
+.py-45{
+	padding: 180px 0
+}
+.mt-45{
+	margin-top: 180px
+}
+.py-50{
+	padding: 200px 0
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-center{
+	justify-content: center
+}
+.align-self-end{
+	align-self:flex-end
+}
+.align-self-center{
+	align-self: center
+}
+.align-center{
+	align-items: center
+}
+.text-left{
+	text-align: left
+}
+.text-right{
+	text-align: right
+}
+.text-center{
+	text-align: center
+}
+.btn{
+	padding: 8px 20px;
+	text-decoration: none;
+	color: #fefae0;
+/*	background: grey;*/
+	border-radius: 20px
+}
+.btn-primary{
+	border: 1px solid #fefae0;
+	color: #fefae0
+}

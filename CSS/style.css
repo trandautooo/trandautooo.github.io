@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Quicksand:wght@300&display=swap');
+@font-face{
+	src:url("../Font/SVN-Megante.otf");
+	font-family: Megante
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fefae0;
+  opacity: 1; /* Firefox */
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box
+}
+h1,h2,h3,h4,h5{
+	font-family: Megante;
+	color: #dda15e
+}
+body{
+	font-family: 'Quicksand', sans-serif;
+	color: #fefae0
+}
+#wrapper{
+	width: 100%;
+	height: 4194px;
+	background: url("../IMG/nen den-01.png");
+	background-size: cover
+}
+.header{
+	width: 100%;
+	height: 94px;
+	background: url("../IMG/nen den-01.png");
+	background-size: cover
+}
+.logo{
+	display: flex;
+	justify-content: center
+}
+.logo img{
+	height: 70px;
+}
+.nav ul{
+	display: flex;
+	list-style: none
+}
+.nav li{
+	margin: 0 20px
+}
+.nav li a{
+	text-decoration: none;
+	color: #fefae0
+}
+.nav li a:hover{
+	color: #dda15e
+}
+.dangky-header a:hover{
+	color: #dda15e
+}
+/*main*/
+.main{
+	height: 4000px;
+	background: url("../IMG/nen den-01.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.banner{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-hinhogiua{
+	width: 300px;
+	position: absolute;
+	right: 330px;
+	bottom: 35px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	overflow: hidden;
+	z-index: 110
+}
+.banner-hinhogiua img{
+	width: 100%
+}
+.khungvong{
+	width: 300px;
+	height: 400px;
+	border: 1px solid #fefae0;
+	right: 310px;
+	bottom: 20px;
+	position: absolute;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	z-index: 100;
+}
+.banner-content-left{
+	position: absolute;
+	left: 0;
+	bottom: 10px
+}
+.banner-content-left h1{
+	font-size: 3rem
+}
+.banner-hinhphai{
+	width: 190px;
+	position: absolute;
+	right: 0;
+	bottom: 90px;
+}
+.banner-hinhphai img{
+	width: 100%
+}
+.banner-hinhtrai{
+	width: 120px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+	overflow: hidden;
+}
+.banner-hinhtrai img{
+	width: 100%
+}
+.banner-content-right{
+	position: absolute;
+	right: 0;
+	top: 55px
+}
+/*section 1*/
+.section-1{
+	width: 100%;
+	height: 600px;
+}
+.laudai{
+	width: 300px;
+	border-radius: 5%;
+	overflow: hidden;
+	position: relative;
+	transition-duration: 0.5s;
+}
+.hinh-laudai{
+	width: 100%;
+	height: 200px;
+}
+.hinh-laudai img{
+	width: 100%
+}
+.laudai:hover{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.overlay-remove .section1-content{
+	width: 100%;
+	padding-left: 16px;
+	background: #dda15e;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: #fefae0;
+	height: 0;
+	overflow: hidden;
+	transition-duration: 0.5s;
+	display: flex;
+	align-items: center;
+}
+.overlay-remove:hover .section1-content{
+	height: 40px
+}
+/*section 2*/
+.section-2{
+	width: 1000px;
+	height: 500px;
+	margin: 150px auto;
+	position: relative;
+}
+.section2-picture{
+	position: absolute;
+	bottom: 0;
+	left: 0
+}
+.section2-picture img{
+	height: 450px
+}
+.section2-tieude{
+	position: absolute;
+	left: 30%;
+	bottom: 10%
+}
+.section2-tieude h1{
+	font-size: 3rem
+}
+.section2-content{
+	position: absolute;
+	right: 0;
+	top: 0
+}
+.section2-xemthem{
+	position: absolute;
+	right: 0;
+	bottom: 15%
+}
+.section2-xemthem a:hover{
+	color: #dda15e
+}
+/*section 3*/
+.section-3{
+	width: 1000px;
+	height: 1800px;
+	margin: 150px auto;
+	display: flex;
+	box-sizing: border-box
+}
+.section3-tieude{
+	font-size: 1.5rem
+}
+.section3-image{
+	height: 200px
+}
+.section3-image img{
+	width: 100%
+}
+.section3-card{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center
+}
+.section3-content{
+	padding: 80px 0;
+}
+.section3-content h1{
+	text-align: center
+}
+.section3-content p{
+	text-align: center
+}
+.section3-content5{
+	padding: 260px 0 80px 0;
+}
+.section3-content5 h1{
+	text-align: center
+}
+.section3-content5 p{
+	text-align: center
+}
+/*footer*/
+.footer{
+	width: 100%;
+    height: 100px;
+	background: url("../IMG/nen den-01.png");
+	background-size: cover
+}
+.fotter-tieude h2{
+	text-align: center
+}
+.contact ion-icon{
+	font-size: 24px;
+	color: #fefae0;
+	text-align: right;
+	margin: 0 20px
+}
+.contact{
+	display: flex;
+	justify-content: center;
+}
+.footer img{
+	height: 50px
+}
+.coppyright{
+	margin-top: 15px;
+}
+.coppyright p{
+	text-align: center;
+	font-size: 10px;
+	margin-bottom: 5px
+}
+/*register*/
+.register{
+	width: 100%;
+	height: 100vh;
+	background: url("../IMG/1200px-Michelangelo_-_Creation_of_Adam_(cropped).jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+.box{
+	width: 350px;
+	padding: 32px;
+	background: rgba( 0, 0, 0, 0.2 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.divided{
+	width: 50%;
+	height: 1px;
+	background: #fefae0;
+	margin: 12px 0 32px 0;
+}
+.box input{
+	width: 100%;
+	margin: 8px 0;
+	background: rgba( 0, 0, 0, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 2.5px );
+-webkit-backdrop-filter: blur( 2.5px );
+border-radius: 50px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+	padding: 8px;
+	color: #dda15e;
+	outline: none
+}
+.box button{
+	background: #dda15e;
+	border-radius: 20px;
+	padding: 8px 12px;
+	border: none;
+	cursor: pointer;
+}
+.name{
+	display: flex;
+	justify-content: space-between
+}
+.name input{
+	width: 48%
+}
+.submit button{
+	margin: 16px 0
+}
+.box span{
+	color: #fefae0
+}
+.box a{
+	color: #dda15e;
+	text-decoration: none
+}
+/*artist*/
+.artist{
+	width: 100%;
+	height: 1450px;
+	background: url("../IMG/nen den-01.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+.vangoh{
+	width: 100%;
+	height: 700px;
+	padding: 40px 0
+	
+}
+.vangoh-name h1{
+	font-size: 3rem
+}
+.vangoh-content{
+	padding: 80px 0
+}
+.vangoh-content p{
+	font-size: 14pt
+}
+.vangoh-divided{
+	width: 30%;
+	height: 1px;
+	background: #fefae0;
+	margin: 12px 0 12px 0;
+}
+.vangoh-img{
+	width: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.vangoh-img img{
+	width: 100%;
+}
+.demdaysao{
+	width: 80%;
+	position: relative;
+	overflow: hidden;
+	transition-duration: 0.5s
+}
+.demdaysao-img{
+	width: 100%;
+}
+.demdaysao-img img{
+	width: 100%;
+}
+.overlay .demdaysao-content{
+	width: 100%;
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	opacity: 0;
+	transition-duration: 0.5s;
+	visibility: hidden;
+}
+.overlay:hover .demdaysao-content{
+	opacity: 1;
+	visibility: visible
+}
+.phongngu{
+	width: 80%;
+	position: relative;
+	overflow: hidden;
+	transition-duration: 0.5s
+}
+.phongngu-img{
+	width: 100%;
+}
+.phongngu-img img{
+	width: 100%;
+}
+.overlay .phongngu-content{
+	width: 100%;
+	padding: 10px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	color: white;
+	opacity: 0;
+	transition-duration: 0.5s;
+	visibility: hidden;
+}
+.overlay:hover .phongngu-content{
+	opacity: 1;
+	visibility: visible
+}
+/*paul*/
+.paul{
+	width: 100%;
+	height: 700px;
+	padding: 40px 0
+}
+.paul-name h1{
+	font-size: 3rem
+}
+.paul-tacpham{
+	width: 100%
+}
+.paul-tacpham img{
+	width: 80%
+}
+.paul-img{
+	width: 100%;
+	padding: 12px
+}
+.paul-img img{
+	width: 100%
+}
+.paul-content p{
+	font-size: 14pt
+}
+.paul-divided{
+	width: 65%;
+	height: 1px;
+	background: #fefae0;
+	margin: 12px 0 12px 0;
+}
+/*photo*/
+.photography{
+	width: 100%;
+	height: 1450px;
+	background: url("../IMG/nen den-01.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
